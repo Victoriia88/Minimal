@@ -74,6 +74,11 @@ main .banner {
 .get_in_touch button {
   padding: 15px 24px;
   background: #fefec9;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.get_in_touch button:hover {
+  transform: scale(1.2) translateX(8px);
 }
 .git_text {
   max-width: 940px;
