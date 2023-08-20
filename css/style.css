@@ -104,6 +104,9 @@ main .banner {
   line-height: 20px; /* 125% */
   text-decoration: none;
 }
+/* #brands {
+  display: none;
+} */
 .brands {
   background: #fff;
 }
