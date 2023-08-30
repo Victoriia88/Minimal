@@ -1,4 +1,5 @@
-document.getElementById("getInTouch").addEventListener("click", function () {
+document.getElementById("getInTouch").addEventListener("click", function (e) {
+  e.preventDefault();
   const brands = document.getElementById("brands");
 
   if (brands.style.display === "none") {
@@ -6,4 +7,5 @@ document.getElementById("getInTouch").addEventListener("click", function () {
   } else {
     brands.style.display = "none";
   }
+  console.log(e);
 });

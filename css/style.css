@@ -291,7 +291,7 @@ main .banner {
 .our_team_img li {
   list-style: none;
   display: inline-block;
-  margin: 29px;
+  margin: 13px;
 }
 .quote {
   background: #f5f5f5;
@@ -303,7 +303,6 @@ main .banner {
 .img_sing img {
   display: block;
   margin: auto;
-  padding-bottom: 36px;
 }
 .quote_wrapper {
   max-width: 447px;
@@ -330,6 +329,8 @@ main .banner {
   font-style: normal;
   font-weight: 400;
   line-height: 33px; /* 126.923% */
+  padding-top: 36px;
+  padding-bottom: 24px;
 }
 .quote_text h4 {
   color: #ababab;
@@ -391,6 +392,9 @@ main .information {
   font-weight: 400;
   line-height: 20px; /* 117.647% */
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
 }
 .information_content {
   display: flex;
@@ -398,6 +402,10 @@ main .information {
   justify-content: space-between;
   max-width: 940px;
   margin: auto;
+}
+
+.info_wr_img {
+  padding-bottom: 28px;
 }
 /* .information_wrapper img:nth-of-type(1) {
   padding-bottom: 26px;
