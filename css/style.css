@@ -243,6 +243,58 @@ main .banner {
 
   color: #8bcac3;
 }
+.project {
+  background: #f5f5f5;
+}
+.project_content {
+  max-width: 940px;
+  margin: auto;
+  padding: 84px 0;
+}
+.project_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.project_content h2 {
+  color: #333;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 156.522% */
+  text-transform: uppercase;
+  padding-bottom: 74px;
+}
+.project_card_text {
+  background: #fff;
+  padding: 20px 0;
+}
+.project_card_text h3 {
+  color: #333;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  text-transform: uppercase;
+  padding-bottom: 4px;
+}
+.project_card_text p {
+  color: #333;
+  text-align: center;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.project_card img {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
 .our_team {
   background: #fff;
   padding: 69px 0;
